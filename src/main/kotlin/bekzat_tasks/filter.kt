@@ -13,6 +13,8 @@ fun main() {
     val filteredIdx1 = nums.filterIndexed { index, s ->(s < 2)  }
     val filteredNot = numbers.filterNot { it.length <= 3 }
     val filteredNot1 = nums.filterNot { it <= 3 }
+    // this is changing
+    //sdfdsf
 //filterIsInstance() returns collection elements of a given type.
     mix.filterIsInstance<Integer>().forEach{
     }
